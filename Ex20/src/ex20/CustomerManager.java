@@ -18,6 +18,7 @@ public class CustomerManager {
 		CustomerManager customerManager = new CustomerManager();
 		customerManager.addCustomerCard("satoru konno","satoru@gmail.com");
 		customerManager.addEmployeeCard("hasimotokanna","ilovesat@gmail.com");
+		customerManager.addEmployeeCard("kajiwarayui","kajiwara@gmail.com");
 		
 		customerManager.printAll();
 	}catch(Exception e) {
